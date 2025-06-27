@@ -1,0 +1,31 @@
+{
+  "name": "ai-comic-creator",
+  "version": "1.0.0",
+  "description": "An advanced web application that generates comics from user-provided stories using AI.",
+  "main": "src/main.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "tailwindcss": "^2.2.19",
+    "html2pdf.js": "^0.10.1",
+    "jsPDF": "^2.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "vite": "^2.6.4",
+    "vite-plugin-tailwindcss": "^1.0.0"
+  },
+  "keywords": [
+    "AI",
+    "comic",
+    "generator",
+    "web",
+    "application"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
